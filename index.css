@@ -72,10 +72,10 @@ body{
   }
 
   .button-container{
-      display:inline-block;
+      display:inline;
   }
 
-  button {
+  .button-style {
     background: #34495e;
     border-bottom: #2c3e50 3px solid;
     border-left: #2c3e50 1px solid;
@@ -88,10 +88,11 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    width:195px;
+    width:43.5%;
+    margin-top:10px;
   }
 
-  button:hover{
+  .button-style:hover{
       cursor:pointer;
       opacity: 0.8;
   }
